@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="index.css">
+
+      <title>Heritage Title Company</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="HTC TESTING.html" class="nav__logo">
+                <img src="assets/logo/logo.png" alt="htc">
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="HTC TESTING.html" class="nav__link">Home</a></li>
+
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Resources & Orders <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="Rates&Forms.html" class="dropdown__link">
+                              Rates & Forms
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="PlaceanOrder.html" class="dropdown__link">
+                               Place an Order
+                           </a>
+                        </li>
+
+
+                              <a href="Wiring.html" class="dropdown__link">
+                                 Wiring Info
+                              </a>
+                               
+
+
+                        </li>
+                     </ul>
+                  </li>
+                  
+                  <li><a href="News&Events.html" class="nav__link">News & Events</a></li>
+                  <li><a href="contact.html" class="nav__link">Contact</a></li>
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Login 
+                     </div>
+
+                   
+            </div>
+         </nav>
+      </header>
+      <div class="fcf-body">
+
+         <div id="fcf-form">
+         <h3 class="fcf-h3">Contact us</h3>
+     
+         <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+             
+             <div class="fcf-form-group">
+                 <label for="Name" class="fcf-label">Your name</label>
+                 <div class="fcf-input-group">
+                     <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                 </div>
+             </div>
+     
+             <div class="fcf-form-group">
+                 <label for="Email" class="fcf-label">Your email address</label>
+                 <div class="fcf-input-group">
+                     <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                 </div>
+             </div>
+     
+             <div class="fcf-form-group">
+                 <label for="Message" class="fcf-label">Your message</label>
+                 <div class="fcf-input-group">
+                     <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                 </div>
+             </div>
+     
+             <div class="fcf-form-group">
+                 <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+             </div>
+     
+             <div class="fcf-credit" id="fcf-credit">
+             Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+             </div>
+     
+         </form>
+         </div>
+     
+     </div>
+      <footer>
+<p>&copy; 2023 Heritage Titling Company. All rights reserved.</p>
+      </footer>
+      <!--=============== MAIN JS ===============-->
+      <script src="main.js"></script>
+   </body>
+</html>
